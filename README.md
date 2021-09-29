@@ -1,7 +1,5 @@
 # jascha030/wp-theme
 
-Description: A simple project description similar to the one found in your `composer.json`.
-
 ## Getting started
 
 ## Prerequisites
