@@ -1,0 +1,26 @@
+{
+  "name": "wp-theme",
+  "version": "1.0.0",
+  "description": "Wordpress theme",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jascha030/wp-theme.git"
+  },
+  "keywords": [
+    "WordPress",
+    "wp-theme"
+  ],
+  "author": "Jascha030",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jascha030/wp-theme/issues"
+  },
+  "homepage": "https://github.com/jascha030/wp-theme#readme"
+}
