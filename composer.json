@@ -8,12 +8,12 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Jascha030\\ComposerTemplate\\": "src/"
+      "Jascha030\\WpTheme\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Jascha030\\ComposerTemplate\\Tests\\": "tests/"
+      "Jascha030\\WpTheme\\Tests\\": "tests/"
     }
   },
   "authors": [
@@ -21,6 +21,12 @@
       "name": "Jascha030",
       "email": "contact@jaschavanaalst.nl"
     }
+  ],
+  "keywords": [
+    "WordPress",
+    "theme",
+    "wp",
+    "minimal"
   ],
   "minimum-stability": "stable",
   "require": {
