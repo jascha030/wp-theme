@@ -1,10 +1,6 @@
 {
   "name": "jascha030/composer-template",
   "description": "Template repo for creating composer projects",
-  "require-dev": {
-    "friendsofphp/php-cs-fixer": "^3.0",
-    "phpunit/phpunit": "^9.5"
-  },
   "license": "MIT",
   "autoload": {
     "psr-4": {
@@ -15,6 +11,16 @@
     "psr-4": {
       "Jascha030\\WpTheme\\Tests\\": "tests/"
     }
+  },
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-json": "*",
+    "symfony/filesystem": "^5.3",
+    "symfony/finder": "^5.3"
+  },
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "^3.0",
+    "phpunit/phpunit": "^9.5"
   },
   "authors": [
     {
@@ -29,9 +35,6 @@
     "minimal"
   ],
   "minimum-stability": "stable",
-  "require": {
-    "php": "^7.4 || ^8.0"
-  },
   "config": {
     "platform": {
       "php": "7.4"
