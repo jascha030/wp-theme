@@ -7,7 +7,9 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "APP_ENV=development vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -22,5 +24,14 @@
   "bugs": {
     "url": "https://github.com/jascha030/wp-theme/issues"
   },
-  "homepage": "https://github.com/jascha030/wp-theme#readme"
+  "homepage": "https://github.com/jascha030/wp-theme#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.3.6",
+    "postcss": "^8.3.8",
+    "standard": "^16.0.3",
+    "tailwindcss": "^2.2.16",
+    "typescript": "^4.4.3",
+    "vite": "^2.6.1",
+    "vite-plugin-live-reload": "^2.1.0"
+  }
 }
